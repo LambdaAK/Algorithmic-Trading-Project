@@ -1,0 +1,27 @@
+# Design document (local only)
+Design document.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# Runs and artifacts
+runs/
+
+# Data (optional: uncomment if you don't want to commit parquet)
+# *.parquet
+# data/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
